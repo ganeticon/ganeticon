@@ -83,3 +83,18 @@ TBD
 
 TBD
 
+## Next year's GanetiCon
+
+We discussed options for next year's GanetiCon - if you have other suggestions, feel free to add below:
+
+### May 2019, Copenhagen
+Petter suggested to integrate the GanetiCon with the NeIC (Nordic e-Infrastructure Collaboration) conference happening in May 2019 (14th - 16th of May). The conference is governmentally funded so there might be a (small) conference fee for attendants to cover the location and catering. We will update this document as soon as we know more.
+The GanetiCon would run as a workshop during the conference and can extend up to two days.
+
+## Other upcoming meetups/workshops
+
+We might be able to meet/setup workshops during the following future events:
+* Fosdem
+* FrosCon
+* 35C3
+
