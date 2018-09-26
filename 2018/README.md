@@ -35,7 +35,7 @@ TBD
 TBD
 
 ## Scripts and resources shared during the conference
-- (Ganeti Tools by FHD)[https://colorfreedom.org/fhd/ganeti-tools]
+- [Ganeti Tools by FHD](https://colorfreedom.org/fhd/ganeti-tools)
 
 ## Workshops, sprints etc.
 
