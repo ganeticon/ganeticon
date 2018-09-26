@@ -73,7 +73,22 @@ How wants to go through i.e. the install docs and test it on Debian _AND_ Ubuntu
 
 ### vCluster Howto
 
-TBD
+We set up an example vCluster to ease testing/development within or around ganeti:
+```
+apt-get install ganeti
+
+ip link add gnt type dummy
+ip link up gnt
+
+mkdir -p /opt/ganeti-vcluster
+cd /usr/lib/ganeti/tools/
+./vcluster-setup -c 3 /opt/ganeti-vcluster
+cd /opt/ganeti-vcluster
+```
+Now follow the commands printed by the ```vcluster-setup``` script to initialise the cluster and add the virtual nodes to it. This will leave you with a fake cluster running three nodes on your local single server. In ```/opt/ganeti-vcluster``` are some mainteance scripts to start/stop the vCluster. If you are running ```systemd```, please export the following variable before issuing any of the commands:
+```
+export _SYSTEMCTL_SKIP_REDIRECT=1
+```
 
 ### Ganeti Github repository bug closing sprint
 
