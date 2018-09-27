@@ -24,7 +24,22 @@ TBD
 
 ### Live Demo of different ganeti hacks/improvements
 
-TBD
+- Demo #1: yet another console solution (using websockify/novnc)
+  - [idea described at ganeticon 2017](https://github.com/ge-fa/ganeti-presentations/blob/master/2017/GanetiCon/ganeti_at_gisa-sascha_lucas.pdf)
+  - goals:
+    - small enough to run on ganeti cluster (master node)
+    - single point of contact (master IP/name, only one port)
+    - secure (HTTPS encryption, HTTP basic auth, ACLs to consoles via groups i.e. LDAP groups, no need to expose VNC to public network -> 127.0.0.1 is enough)
+
+- Demo #2: grow a disk online (without instance reboot)
+  - this solves [Issue #28](https://github.com/ganeti/ganeti/issues/28) via a hook script
+  - hook script will be published and linked here, if you can not find it, feel free to bug me
+  
+- Demo #3: DRBD out of sync from userspace
+  - this is the same as this [thread](https://groups.google.com/forum/#!msg/ganeti/GRVFKv0sVjY/L4JmCdeHAwAJ;context-place=forum/ganeti) on the ML
+  - and this k.o. [bug](https://bugzilla.kernel.org/show_bug.cgi?id=99171)
+  
+- Hint #4: be aware of kvm:cpu_type to use a IBRS (spectre/meltdown) protected CPU type
 
 ### Current state of the debian packages
 
