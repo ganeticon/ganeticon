@@ -20,7 +20,7 @@ TBD
 
 ### Thoughts on the past and current state of the Ganeti community
 
-TBD
+[sildes](ganeti_status.pdf) from talk "Status of Ganeti"
 
 ### Live Demo of different ganeti hacks/improvements
 
