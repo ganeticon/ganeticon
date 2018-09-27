@@ -111,7 +111,16 @@ TBD
 
 ## Code diet - how to improve the codebase
 
-TBD
+We discussed possible ways to cleanup the ganeti codebase:
+* Migrate the qemu management interface from "human monitor" to "QMP"
+* Remove the "human monitor" abstraction library once finished
+* Remove lots of obsolete conditionals which are used to detect/interface older/obsolete kvm versions
+* Ask the mailing list to determine  obsolete features (e.g. unused hypervisor integrations)
+
+We also talked about things to improve:
+* What's going on with half-implemented features targeted for 2.17 - remove them? finish them?
+* Python 2.7 is going EOL in 2020 - the Python 3 migration needs to be finished and tested before Python-3-only-distribution-releases freeze package versions
+ * Apollon has a git branch available which contains partly automatic, partly manual conversions to Python 3 with ~96% of tests passing so far (Does anyone have the URL?)
 
 ## Next year's GanetiCon
 
