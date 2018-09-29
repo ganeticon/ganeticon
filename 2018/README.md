@@ -33,7 +33,7 @@ TBD
 
 - Demo #2: grow a disk online (without instance reboot)
   - this solves [Issue #28](https://github.com/ganeti/ganeti/issues/28) via a hook script
-  - hook script catn be found [here](https://github.com/saschalucas/ganeti-hook-grow-disk)
+  - hook script can be found [here](https://github.com/saschalucas/ganeti-hook-grow-disk)
   
 - Demo #3: DRBD out of sync from userspace
   - this is the same as this [thread](https://groups.google.com/forum/#!msg/ganeti/GRVFKv0sVjY/L4JmCdeHAwAJ;context-place=forum/ganeti) on the ML
