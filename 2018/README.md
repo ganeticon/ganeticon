@@ -93,7 +93,7 @@ We set up an example vCluster to ease testing/development within or around ganet
 apt-get install ganeti
 
 ip link add gnt type dummy
-ip link up gnt
+ip link set dev gnt up
 
 mkdir -p /opt/ganeti-vcluster
 cd /usr/lib/ganeti/tools/
